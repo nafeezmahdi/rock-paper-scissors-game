@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo&family=Noto+Serif&family=Roboto+Serif:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="/index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="game-name">Rock Paper Scissors Game</h1>
+      <p class="first-paragraph">Choose Your Move</p>
+
+      <div class="game-button" id="game-button">
+        <button class="rock" id="rock">Rock</button>
+        <button class="paper" id="paper">Paper</button>
+        <button class="scissors" id="scissors">Scissors</button>
+      </div>
+
+      <div class="show-result">
+        <p class="game-result" id="game-result"></p>
+        <p class="final-result" id="final-result">
+          Your Score :
+          <span class="your-result" id="your-result">0</span> Computer Score :
+          <span class="computer-result" id="computer-result">0</span>
+        </p>
+        <p id="last-result"></p>
+      </div>
+      <button id="reset">Reset</button>
+    </div>
+  </body>
+</html>

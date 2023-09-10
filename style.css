@@ -1,0 +1,58 @@
+* {
+    background-color: #EDC7BC;
+    text-align: center;
+    
+}
+.container {
+     width: 100%; 
+}
+
+.game-name {
+font-family: 'Chivo', sans-serif;
+font-size: 30px;
+margin: 2rem 0 0 0;
+padding: 1rem auto;
+text-align: center;
+width: 100%;
+
+}
+
+.first-paragraph {
+     font-family: 'Noto Serif', serif;  
+     font-weight: bold;
+     font-size: 1.2rem;
+     padding: 1rem;
+     border: 0;
+     margin: 0;
+} 
+
+.game-button {
+    background-color: #EDC7BC;
+}
+
+.rock {
+    padding: 2rem;
+    margin: 0 1rem;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 4px;
+}
+.paper{
+    padding: 2rem;
+    margin: 0 1rem;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 4px;
+}
+.scissors {
+    padding: 2rem;
+    margin: 0 1rem;
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 4px;
+}
+
+
+
+
+/* font-family: 'Roboto Serif', serif; 
